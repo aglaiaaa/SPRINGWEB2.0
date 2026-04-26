@@ -47,7 +47,7 @@ public class VikingController {
     public void addViking(@RequestBody Viking viking) {
         System.out.println("POST /api/vikings called");
         vikingService.addViking(viking);
-        // Если нужно обновить GUI, можно вызвать vikingListener.notify... но не обязательно
+       
     }
 
     @DeleteMapping("/{index}")
