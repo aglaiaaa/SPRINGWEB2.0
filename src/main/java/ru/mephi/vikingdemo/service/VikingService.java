@@ -49,11 +49,5 @@ public class VikingService {
         }
     }
 
-    public Viking getViking(int index) {
-        if (index >= 0 && index < vikings.size()) {
-            return vikings.get(index);
-        } else {
-            throw new IllegalArgumentException("не то " + index);
-        }
-    }
+
 }
